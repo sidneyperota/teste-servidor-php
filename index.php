@@ -12,7 +12,18 @@
 	
 		return var_dump(json_decode($json_teste));
 		
-		
+
+		if ( isset($_GET) ) { 
+
+			if ( $_POST['nome'] == "rodrigo" ) { 
+				echo "Rodrigo logado com sucesso";
+			}
+
+			var_dump($_POST); 
+
+		}
+
+		var_dump($_GET); 
 
 	}
 

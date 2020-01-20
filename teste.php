@@ -17,10 +17,19 @@
 
 	array_shift( $url );
 	
-	echo $url[1]."<br>" ; 
-	echo $url[2]."<br>";
-
-
+	//echo $url[1]."<br>" ; 
+	//echo $url[2]."<br>";
 
 
 	var_dump( $url ); 
+
+	//var_dump( $_POST );
+
+	if ( $_POST["nome"] == "rodrigo" ) { 
+		echo "Usuário Logado com Sucesso!"; 
+	}
+	else
+	{
+		echo "Usuário Não autorizado!"; 	
+	}	
+
